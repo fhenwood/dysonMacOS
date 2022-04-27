@@ -4,7 +4,7 @@ APP = ['App.py']
 DATA_FILES = ['data/dyson_am09.json', 'data/icon.png']
 OPTIONS = {
     'argv_emulation': True,
-    'iconfile':'data/icon.icns',
+    'iconfile':'data/app_icon.icns',
     'plist': {
         'CFBundleShortVersionString': '0.2.0',
         'LSUIElement': True,
