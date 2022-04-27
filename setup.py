@@ -9,7 +9,7 @@ OPTIONS = {
         'CFBundleShortVersionString': '0.2.0',
         'LSUIElement': True,
     },
-    'packages': ['rumps', 'broadlink', 'src'],
+    'packages': ['rumps', 'broadlink', 'cffi', 'src'],
 }
 
 setup(
@@ -18,5 +18,5 @@ setup(
     data_files=DATA_FILES,
     options={'py2app': OPTIONS},
     setup_requires=['py2app'],
-    install_requires=['rumps', 'broadlink']
+    install_requires=['rumps', 'broadlink', 'cffi']
 )

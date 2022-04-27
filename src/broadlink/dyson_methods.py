@@ -6,12 +6,9 @@ import time
 class dyson_am09:
     def __init__(self):
         print('Connecting')
-        try:
-            self.devices = broadlink.discover()
-            self.device = self.devices[0]
-            self.device.auth()
-        except:
-            self.device = None
+        self.devices = broadlink.discover()
+        self.device = self.devices[0]
+        self.device.auth()
         print('Connected')
         self.buttons = self.convert_buttons_to_bytes(self.return_button_str())
         
