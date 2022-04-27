@@ -26,7 +26,7 @@ python setup.py py2app
 - Switch between hot and cold.
 - Spin.
 - Displays fan temperature when known.
-- Reset current state to an unknown state if out of sync due to a remote control.
+- Reset current state to an known state if out of sync due to changes via an external remote control.
 
 ## 🔨 Contributor 
 Feel free to create pull requests. Feel free to add more dyson fans via learning the IR codes:
